@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 整合Mybatis -->
+    <!-- 引入配置文件 -->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    
+    <!-- 1.声明数据库 -->
+    <bean id="druid" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="driverClassName" value="${jdbc.driver}"/>
+
+        <!-- 配置获取连接等待超时的时间 -->
+        <property name="maxWait" value="30000"/>
+
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="60000"/>
+
+        <!-- 配置一个连接在池中最小空闲的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+    </bean>
+
+    <!-- 2.SqlSessionFactory -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 传入数据库 -->
+        <property name="dataSource" ref="druid"/>
+        <!-- 创建mapper(相当于sqlSession) 如果dao和配置文件在同一个文件夹下，可以省略-->
+        <!--<property name="mapperLocations" value="classpath:com/qf/dao/*.xml"/>-->
+        <!-- 起别名 -->
+        <property name="typeAliasesPackage" value="com.qf.domain"/>
+        <!-- 分页插件 -->
+        <property name="plugins">
+            <list>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <value>
+                            reasonable=true;
+                        </value>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 3.mapper -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 如果只有一个工厂，可以省略 -->
+        <!--<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>-->
+        <!-- 声明在哪找mapper -->
+        <property name="basePackage" value="com.qf.dao"/>
+    </bean>
+
+    <!-- 4.事务管理器 -->
+    <bean id="tx" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="druid"/>
+    </bean>
+
+    <!-- 配置 -->
+    <!-- 配置注解扫描器 -->
+    <context:component-scan base-package="com.qf" />
+
+    <!-- 支持实现事务 -->
+    <tx:annotation-driven transaction-manager="tx"/>
+
+    <!-- 支持AOP定制 开关 -->
+    <aop:aspectj-autoproxy/>
+
+</beans>

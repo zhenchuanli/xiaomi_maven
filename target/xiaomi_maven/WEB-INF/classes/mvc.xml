@@ -1,0 +1,53 @@
+<beans 	xmlns="http://www.springframework.org/schema/beans"
+          xmlns:context="http://www.springframework.org/schema/context"
+          xmlns:mvc="http://www.springframework.org/schema/mvc"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.springframework.org/schema/beans
+							http://www.springframework.org/schema/beans/spring-beans.xsd
+							http://www.springframework.org/schema/context
+							http://www.springframework.org/schema/context/spring-context.xsd
+							http://www.springframework.org/schema/mvc
+							http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- 告知springmvc（扫描）  哪些包中 存在 被注解的类 -->
+    <context:component-scan base-package="com.qf"></context:component-scan>
+    <!-- 注册注解开发驱动 -->
+    <mvc:annotation-driven>
+        <!-- 使用fastjson的时候，需要先注册 -->
+        <mvc:message-converters>
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <!-- 声明转换类型:json -->
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>application/json</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+
+    <!-- 视图解析器
+	     作用：1.捕获后端控制器的返回值="index"
+	          2.解析： 在返回值的前后 拼接 ==> "/index.jsp"
+	 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 前缀 -->
+        <property name="prefix" value="/"></property>
+        <!-- 后缀 -->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+    <!-- 访问静态资源   与<url-pattern>/</url-pattern>一起使用 -->
+    <!--
+        在项目中，自动添加一个映射{"/**"：DefaultServletHttpRequestHandler}
+        请求进入前端后，会先匹配自定义的Handler，如果没有匹配的，则进入DefaultServletHttpRequestHandler
+        DefaultServletHttpRequestHandler会将请求转发给Tomcat中命名为"default"的servlet
+        最终实现静态资源的访问
+     -->
+    <mvc:default-servlet-handler/>
+
+    <!-- 异常解析器 -->
+
+    <!-- 声明拦截器 -->
+
+</beans>

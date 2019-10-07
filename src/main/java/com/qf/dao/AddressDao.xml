@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.dao.AddressDao">
+    <insert id="add">
+        insert into tb_address(detail, name, phone, uid, level)
+        values(#{detail}, #{name}, #{phone}, #{uid}, #{level})
+    </insert>
+
+    <update id="updateDefault">
+        update tb_address set level=0 where uid=#{uid};
+        update tb_address set level=1 where id=#{aid};
+    </update>
+
+    <update id="update">
+        update tb_address
+        set name=#{name}, phone=#{phone}, detail=#{detail}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteById">
+        delete from tb_address
+        where id = #{pid}
+    </delete>
+
+    <select id="findByUid" resultType="com.qf.domain.Address">
+        select * from tb_address
+        where uid = #{uid}
+    </select>
+</mapper>

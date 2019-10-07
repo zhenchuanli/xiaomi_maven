@@ -1,0 +1,73 @@
+03:04:18,986  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Sun Oct 06 03:04:18 CST 2019]; root of context hierarchy
+03:04:19,073  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+03:04:19,578  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [db.properties]
+03:04:20,846  INFO DruidDataSource:932 - {dataSource-1} inited
+20:44:18,217  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da: startup date [Sun Oct 06 20:44:18 CST 2019]; root of context hierarchy
+20:44:18,373  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+20:44:19,170  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [db.properties]
+20:44:20,669  INFO DruidDataSource:932 - {dataSource-1} inited
+10:09:49,662  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 10:09:49 CST 2019]; root of context hierarchy
+10:09:49,818  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+10:09:50,631  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+10:09:51,521  INFO DruidDataSource:932 - {dataSource-1} inited
+10:11:33,098  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 10:11:33 CST 2019]; root of context hierarchy
+10:11:33,176  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+10:11:33,660  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+10:11:34,847  INFO DruidDataSource:932 - {dataSource-1} inited
+10:17:54,646  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 10:17:54 CST 2019]; root of context hierarchy
+10:17:54,724  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+10:17:55,224  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+10:17:56,677  INFO DruidDataSource:932 - {dataSource-1} inited
+10:18:14,713  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 10:18:14 CST 2019]; root of context hierarchy
+10:18:14,807  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+10:18:15,276  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+10:18:16,510  INFO DruidDataSource:932 - {dataSource-1} inited
+10:19:12,685  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1dd02175: startup date [Mon Oct 07 10:19:12 CST 2019]; root of context hierarchy
+10:19:12,763  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+10:19:13,309  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+10:19:14,403  INFO DruidDataSource:932 - {dataSource-1} inited
+13:02:21,938  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:02:21 CST 2019]; root of context hierarchy
+13:02:22,016  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:02:22,516  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:02:23,875  INFO DruidDataSource:932 - {dataSource-1} inited
+13:04:08,937  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:04:08 CST 2019]; root of context hierarchy
+13:04:09,046  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:04:09,640  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:04:46,867  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:04:46 CST 2019]; root of context hierarchy
+13:04:46,945  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:04:47,413  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:07:24,540  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:07:24 CST 2019]; root of context hierarchy
+13:07:24,634  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:07:25,134  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:09:28,392  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:09:28 CST 2019]; root of context hierarchy
+13:09:28,486  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:09:28,985  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:11:11,430  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:11:11 CST 2019]; root of context hierarchy
+13:11:11,508  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:11:11,993  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:12:04,115  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:12:04 CST 2019]; root of context hierarchy
+13:12:04,177  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:12:04,662  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:12:05,989  INFO DruidDataSource:932 - {dataSource-1} inited
+13:12:14,063  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:12:14 CST 2019]; root of context hierarchy
+13:12:14,141  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:12:14,626  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:12:15,735  INFO DruidDataSource:932 - {dataSource-1} inited
+13:12:16,047  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:12:16,078  INFO SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+13:13:44,346  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:13:44 CST 2019]; root of context hierarchy
+13:13:44,409  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:13:44,877  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:13:46,143  INFO DruidDataSource:932 - {dataSource-1} inited
+13:13:46,455  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:13:46,486  INFO SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+13:23:01,626  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:23:01 CST 2019]; root of context hierarchy
+13:23:01,713  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:23:02,342  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:23:03,663  INFO DruidDataSource:932 - {dataSource-1} inited
+13:23:03,976  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:23:04,007  INFO SQLErrorCodesFactory:127 - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+13:25:51,714  INFO ClassPathXmlApplicationContext:582 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb: startup date [Mon Oct 07 13:25:51 CST 2019]; root of context hierarchy
+13:25:51,792  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring.xml]
+13:25:52,290  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+13:25:53,739  INFO DruidDataSource:932 - {dataSource-1} inited

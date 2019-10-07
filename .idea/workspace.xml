@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="xiaomi_maven:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ce3e816f-8139-4a4c-9632-f692a1e24db6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Oldman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mylog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/AddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/AddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/CartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/CartDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDetailDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/GoodsType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/GoodsTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/test/TestUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/test/TestUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/utils/Base64Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/utils/DataSourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/utils/EmailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/utils/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/utils/PaymentUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/utils/RandomUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/filter/AutoLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/CartServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/GoodsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/GoodsTypeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/PayServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/addGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/addGoodsType.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/invalidUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/showAllOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/showGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/showGoodsType.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cartSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/goodsDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/goodsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/5c_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/MIX-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/compare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/ghs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/gwc_xiaomi6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hjh_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hjh_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hjh_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hjh_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hjh_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hjh_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hm4-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hm4A-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hm4x_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hmn4x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hmnote4-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hongmi4x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/hongmin4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_hongmin4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_hongmin42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_hongmin4_dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_hongmin4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_xiaomi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_xiaomi5c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_xiaomi5s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_xiaomi6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_xiaomimix.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liebiao_xiaomint2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/liulangengduo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/logo_foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/logo_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/mimobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/mistore_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/peijian9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/pinghengche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/pinpai1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/pinpai2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/pinpai3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/pinpai4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/pinpai5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/star_red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/xiaomi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/xm5-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/xm5S-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/xm5Splus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/xm6_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/xmNOTE2-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/xmad_14926862610682_UhkfS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/yanzhengma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/yyymix.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/payWeixin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/self_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qf/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/AddressDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/AddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/CartDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/CartDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/GoodsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/GoodsTypeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/GoodsTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/OrderDetailDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/OrderDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/GoodsType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/AddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/GoodsTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/impl/GoodsTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/test/TestUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/test/TestUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/utils/Base64Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/utils/DataSourceUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/utils/EmailUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/utils/PaymentUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/utils/RandomUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/filter/AutoLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/servlet/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/servlet/CartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/servlet/GoodsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/servlet/GoodsTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/servlet/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/servlet/PayServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/qf/web/servlet/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/qf/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/AddressDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/AddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/CartDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/CartDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/GoodsDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/GoodsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/GoodsTypeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/GoodsTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/OrderDetailDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/OrderDetailDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/GoodsType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/AddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/GoodsTypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/impl/GoodsTypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/test/TestUserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/test/TestUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/utils/Base64Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/utils/DataSourceUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/utils/EmailUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/utils/PaymentUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/utils/RandomUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/utils/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/filter/AutoLoginFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/servlet/BaseServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/servlet/CartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/servlet/GoodsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/servlet/GoodsTypeServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/servlet/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/servlet/PayServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/com/qf/web/servlet/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/commons-beanutils-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/druid-1.1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/fastjson-1.2.47.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/javax.mail-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/javax.servlet.jsp-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/log4j-1.2.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/mybatis-3.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/mysql-connector-java-5.1.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/slf4j-api-1.7.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/slf4j-log4j12-1.7.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-aspects-4.3.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-beans-4.3.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-context-4.3.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-context-support-4.3.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-core-4.3.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/lib/validatecode-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/addGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/addGoodsType.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/invalidUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/showAllOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/showGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/showGoodsType.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/admin/userList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/cartSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/login2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/error/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/goodsDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/goodsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/5c_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/MIX-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/compare.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/ghs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/gwc_xiaomi6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hjh_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hjh_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hjh_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hjh_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hjh_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hjh_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hm4-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hm4A-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hm4x_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hmn4x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hmnote4-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hongmi4x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/hongmin4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_hongmin4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_hongmin42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_hongmin4_dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_hongmin4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_xiaomi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_xiaomi5c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_xiaomi5s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_xiaomi6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_xiaomimix.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liebiao_xiaomint2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/liulangengduo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/logo_foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/logo_top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/mimobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/mistore_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/peijian9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/pinghengche.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/pinpai1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/pinpai2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/pinpai3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/pinpai4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/pinpai5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/star_red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/xiaomi5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/xm5-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/xm5S-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/xm5Splus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/xm6_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/xmNOTE2-80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/xmad_14926862610682_UhkfS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/yanzhengma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/image/yyymix.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/js/DatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/js/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/orderDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/orderList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/orderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/payWeixin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/registerSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/self_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/xiaomi_maven/test.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="662474741">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="160" />
+          <entry key="jsp" value="7" />
+          <entry key="log" value="2" />
+          <entry key="properties" value="10" />
+          <entry key="xml" value="75" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="160" />
+          <entry key="JSP" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="10" />
+          <entry key="XML" value="75" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="java" value="1729" />
+          <entry key="properties" value="27" />
+          <entry key="xml" value="1388" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1729" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="27" />
+          <entry key="SQL" value="57" />
+          <entry key="XML" value="1331" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/qf/AppTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/GoodsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/GoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>new</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/PayServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/test/TestDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDetailDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDetailDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/CartDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/CartDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/AddressDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/impl/AddressServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsServiceIpml.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/test/TestUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/test/TestUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/AddressDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/AddressService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/UserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsTypeDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/GoodsTypeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/CartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/GoodsServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/web/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/web/filter/AutoLoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/qf/AppTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Repositories\Maven" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="xiaomi_maven Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="1" />
+    <option name="width" value="1579" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaomi_maven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaomi_maven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570426538119" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/小米备份/xiaomi_maven2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GP4-Java\xiaomi_maven\src\main\resources" />
+      <recent name="D:\GP4-Java\xiaomi_maven\src\main\webapp" />
+      <recent name="D:\GP4-Java\xiaomi_maven\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat 8">
+    <configuration name="AppTest.testDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xiaomi_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qf" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.AppTest" />
+      <option name="METHOD_NAME" value="testDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testGoodsDao" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xiaomi_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qf" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.AppTest" />
+      <option name="METHOD_NAME" value="testGoodsDao" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testGoodsDaoCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xiaomi_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qf" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.AppTest" />
+      <option name="METHOD_NAME" value="testGoodsDaoCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testGoodsService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xiaomi_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qf" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.AppTest" />
+      <option name="METHOD_NAME" value="testGoodsService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xiaomi_maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qf" />
+      <option name="MAIN_CLASS_NAME" value="com.qf.AppTest" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat 8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="xiaomi_maven:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/xiaomi_maven" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_xiaomi_maven_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="javadebug" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="xiaomi_maven:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.tomcat 8" />
+      <item itemvalue="JUnit.AppTest.testDao" />
+      <item itemvalue="JUnit.AppTest.testService" />
+      <item itemvalue="JUnit.AppTest.testGoodsDao" />
+      <item itemvalue="JUnit.AppTest.testGoodsService" />
+      <item itemvalue="JUnit.AppTest.testGoodsDaoCount" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.testGoodsService" />
+        <item itemvalue="JUnit.AppTest.testGoodsDaoCount" />
+        <item itemvalue="JUnit.AppTest.testGoodsDao" />
+        <item itemvalue="JUnit.AppTest.testService" />
+        <item itemvalue="JUnit.AppTest.testDao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce3e816f-8139-4a4c-9632-f692a1e24db6" name="Default Changelist" comment="" />
+      <created>1568963641188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568963641188</updated>
+      <workItem from="1568963643765" duration="1840000" />
+      <workItem from="1569339221483" duration="1896000" />
+      <workItem from="1569484538453" duration="11426000" />
+      <workItem from="1569510498712" duration="4086000" />
+      <workItem from="1569540769294" duration="6304000" />
+      <workItem from="1569600649426" duration="595000" />
+      <workItem from="1569627288598" duration="4963000" />
+      <workItem from="1569988910256" duration="616000" />
+      <workItem from="1570010854514" duration="597000" />
+      <workItem from="1570295549289" duration="6831000" />
+      <workItem from="1570364774544" duration="8131000" />
+      <workItem from="1570413953387" duration="9377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 04m 11s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 04m 49s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 07m 26s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 09m 30s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsDaoCount - 2019.10.07 at 13h 11m 13s.xml">
+      <configuration name="AppTest.testGoodsDaoCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsDaoCount - 2019.10.07 at 13h 12m 06s.xml">
+      <configuration name="AppTest.testGoodsDaoCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 12m 16s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 13m 47s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 23m 04s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testGoodsService - 2019.10.07 at 13h 25m 54s.xml">
+      <configuration name="AppTest.testGoodsService" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="56662000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="80" y="2" width="1262" height="831" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27491695" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30058652" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32991204" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32991204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.48367953" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.48533726" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32991204" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3324397" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDetailDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/OrderDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/CartDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/CartDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mylog.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/test/TestUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/AddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/AddressDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/AddressDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/test/TestUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="200" column="17" selection-start-line="200" selection-start-column="17" selection-end-line="200" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/GoodsType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsTypeDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/GoodsTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="66" column="44" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="90" lean-forward="true" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/PayServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="131" selection-start-line="31" selection-start-column="131" selection-end-line="31" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/GoodsTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/filter/AutoLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="127" selection-start-line="17" selection-start-column="127" selection-end-line="17" selection-end-column="127" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/CartServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/AddressServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/web/servlet/GoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/dao/GoodsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/qf/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>xiaomi_maven:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (xiaomi_maven)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>xiaomi_maven</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
